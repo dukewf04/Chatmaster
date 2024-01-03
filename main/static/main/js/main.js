@@ -296,6 +296,13 @@ $("#dropdown-del-section").on('click', function(){
                 },
 				success: function(data){
 					//$('p.out1').text(data.result);
+					/*
+					$('#u'+aID.replace(/[a-zа-яё_]/gi, '')).remove();
+                    l_id = '#li'+section_ID.replace(/[a-zа-яё_]/gi, '')
+                    var count = $(l_id+' li').length;
+                    if (count == 0){
+                        $('#li'+section_ID.replace(/[a-zа-яё_]/gi, '')).remove();
+                    }*/
 				},error: function(){
 					alert("AJAX запрос на удаление подраздела не отправлен!");
 				}	
@@ -315,6 +322,7 @@ $("#dropdown-del-section").on('click', function(){
                 },
 				success: function(data){
 					//$('p.out1').text(data.result);
+					//$('#li'+aID.replace(/[a-zа-яё_]/gi, '')).remove();
 				},error: function(){
 					alert("AJAX запрос на удаление раздела не отправлен!");
 				}	

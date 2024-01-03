@@ -58,7 +58,7 @@ drake = dragula(
             },
             success: function(data){
                 //$('p.out1').text(data.result);
-                location.reload();
+                //location.reload();
             },error: function(){
                 alert("AJAX запрос на сортировку разделов не отправлен!");
             }
@@ -133,7 +133,7 @@ drake = dragula(
             },
             success: function(data){
                 //$('p.out1').text(data.result);
-                location.reload();
+                //location.reload();
             },error: function(){
                 alert("AJAX запрос на сортировку подкатегорий не отправлен!");
             }
