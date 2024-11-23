@@ -1,4 +1,8 @@
 ## About
-Web app for technical support. Create your own structure, where you can push text modules.
+Веб приложение для удобного создания/модификаций текстовых заготовок.
+
+Написан на:
+  HTML/JS
+  Django 4
 
 <img src="Screenshot.jpg">
